@@ -24,8 +24,9 @@ function App() {
   .catch((err) => console.log(err));
 }, []);
   const [searchTerm, setSearchTerm] = useState("");
-console.log(details)
+// console.log(details)
   const handleClick = (e) => {
+    console.log(e)
      usersDetails.map((el) => {
       return el.id === e ? el : "by";
     });
@@ -73,13 +74,13 @@ console.log(details)
         </thead>
         <tbody>
           {filteredArr.map((item, index) => {
-            return (
+            return (index >=10?"":
               <tr key={index}>
                 <td>{item.id}</td>
                 <td>{item.title}</td>
                 <td>{item.completed===true?"completed":"Incompleted"}</td>
                 <td>
-                  <Button onClick={() => handleClick(item.userId)}>submit</Button>
+                  <Button onClick={() => handleClick(item.id)}>submit</Button>
                 </td>
               </tr>
             );
