@@ -1,10 +1,17 @@
 # Getting Started with Create React App
 
+# output
+![2023-04-27 (1)](https://user-images.githubusercontent.com/110678374/234816935-cb4eb56e-2b15-4023-be0d-c68842b1a4a8.png)
+In the project directory, you can run:![2023-04-27](https://user-images.githubusercontent.com/110678374/234817080-a26d7314-1f4e-4357-b7c0-15a88c025f02.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+
+
+
 
 ### `npm start`
 
